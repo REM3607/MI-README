@@ -8,7 +8,7 @@ if ((cond = true)) {
 }
 
 # EXLICACION
-El codigo es incorrecto porque en if cond = true esta asignango el valor true a cond y no haciendo una comparación
+El codigo es incorrecto porque en if cond = true esta asignando el valor true a cond y no haciendo una comparación
 
 # CODIGO CORRECTO
 var cond = false;
