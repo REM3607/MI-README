@@ -10,7 +10,7 @@
 Índice
 
 
-- Semana 1: [ Introducción a la programación y Javascript ](src/technologies/2022/week01)
+- Semana 1: [ Introducción a la programación y Javascript ](MI-LÉAME/ semana1 /)
 - Semana 2: [ Javascript ](src/technologies/2022/week02)
 - Semana 3: [ Javascript ](src/technologies/2022/week03)
 - Semana 4: [ Javascript y día de pausa ](src/technologies/2022/week04)
