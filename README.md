@@ -12,6 +12,7 @@
 
 
 - Semana 1: Introducciónes a la programación y Javascript
+
         -    [ Ejercicio #1](Semana1/Ejercicio1.md)
 - Semana 2: [ Javascript ](src/technologies/2022/week02)
 - Semana 3: [ Javascript ](src/technologies/2022/week03)
