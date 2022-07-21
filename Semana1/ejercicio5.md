@@ -74,3 +74,15 @@
               
               syscall
               
+
+# RESULTADO
+
+
+Ingrese el primer numero: 3 
+
+Ingrese el segundo numero: 2
+Primer Numero Ingresado ES:
+3
+Segundo Numero Ingresado ES
+2
+-- program is finished running (dropped off bottom) --
