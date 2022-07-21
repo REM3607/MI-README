@@ -21,7 +21,7 @@
   ## Challenges (Wednesday 07/20) 💻
     -    [ Ejercicio #4](Semana1/ejercicio4.md )
      
-     # MIPS
+     ### MIPS
     -    [ Ejercicio #5](Semana1/ejercicio5.md ) 
     -    [ Ejercicio #6](Semana1/ejercicio6.md )  
   
