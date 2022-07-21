@@ -3,7 +3,6 @@
 -  .data
 -       message: .asciiz "\nMi NOMBRE ES:\n"
 -       message2: .asciiz "\nRandy E. Moran B\n"        
--
 -  .text
 -       main:
 -             li $v0, 4
