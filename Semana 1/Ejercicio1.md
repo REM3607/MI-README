@@ -1,3 +1,4 @@
+### Explicación Interpreted And Compiled Programming Languages
 
 Los lenguajes compilados son como un libro traducido o un documento legal es decir como por ejemploe creas un .exe que en este caso ya fue traducido a codigo de la maquina 
 
