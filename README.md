@@ -12,7 +12,7 @@
 
 
 - # Semana 1: Introducciónes a la programación y Javascript
-  # Chalenges Martes 21/Jul
+  ## Chalenges Martes 21/Jul
 -    [ Ejercicio #1 21/07](Semana1/Ejercicio1.md)
 -    [ Ejercicio #2 21/07](Semana1/Ejercicio1.md) 
 -    [ Ejercicio #2 21/07](Semana1/Ejercicio1.md) 
