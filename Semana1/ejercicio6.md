@@ -1,3 +1,7 @@
+# Create a program that adds any two given numbers provided by the user
+
+# CODIGO 
+
 .data
 
 	      number1: .asciiz "\nIngrese el primer numero: "
