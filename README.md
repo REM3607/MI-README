@@ -11,7 +11,7 @@
 
 MI-LÉAME/semana1/ Ejercicio #1
 
-- Semana 1: [Introducciónes a la programación y Javascript](semana 1/Ejercicio.md)
+- Semana 1: [Introducciónes a la programación y Javascript](semana1/Ejercicio1.md)
 - Semana 2: [ Javascript ](src/technologies/2022/week02)
 - Semana 3: [ Javascript ](src/technologies/2022/week03)
 - Semana 4: [ Javascript y día de pausa ](src/technologies/2022/week04)
