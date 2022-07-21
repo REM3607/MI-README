@@ -12,15 +12,21 @@
 
 
 - # Semana 1: Introducciónes a la programación y Javascript
-  ## Chalenges Martes 21/Jul
+  ## Chalenges (Tuesday 07/19) 💻
     -    [ Ejercicio #1](Semana1/Ejercicio1.md)
     -    [ Ejercicio #2](Semana1/ejercicio2.md ) 
     -    [ Ejercicio #3](Semana1/ejercicio3.md ) 
+    
+  ## Challenges (Wednesday 07/20) 💻
     -    [ Ejercicio #4](Semana1/ejercicio4.md )
+      # MIPS
     -    [ Ejercicio #5](Semana1/ejercicio5.md ) 
     -    [ Ejercicio #6](Semana1/ejercicio6.md )  
+  
+  ## Challenges (Thursday 07/21) 💻
     -    [ Ejercicio #7](Semana1/ejercicio7.md )  
-    
+  
+  
     
 - Semana 2: [ Javascript ](src/technologies/2022/week02)
 - Semana 3: [ Javascript ](src/technologies/2022/week03)
