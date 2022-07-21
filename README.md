@@ -14,8 +14,8 @@
 - # Semana 1: Introducciónes a la programación y Javascript
   ## Chalenges Martes 21/Jul
 -    [ Ejercicio #1 21/07](Semana1/Ejercicio1.md)
--    [ Ejercicio #2 21/07](Semana1/Ejercicio2.md) 
--    [ Ejercicio #2 21/07](Semana1/Ejercicio3.md) 
+-    [ Ejercicio #2 21/07](Semana1/ejercicio2) 
+-    [ Ejercicio #2 21/07](Semana1/ejercicio3) 
 -    
 - Semana 2: [ Javascript ](src/technologies/2022/week02)
 - Semana 3: [ Javascript ](src/technologies/2022/week03)
