@@ -6,12 +6,12 @@
 
 
 
-### Ejercicios de mi BootCamp
+# Ejercicios de mi BootCamp
 Índice
 
 
 
-- # Semana 1: Introducciónes a la programación y Javascript
+- ### Semana 1: Introducciónes a la programación y Javascript
 -    [ Ejercicio #1 ](Semana1/Ejercicio1.md)
 -    [ Ejercicio #2 ](Semana1/Ejercicio1.md) 
 - Semana 2: [ Javascript ](src/technologies/2022/week02)
