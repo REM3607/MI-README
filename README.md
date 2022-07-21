@@ -16,7 +16,7 @@
     -    [ Ejercicio #1](Semana1/Ejercicio1.md)
     -    [ Ejercicio #2](Semana1/ejercicio2) 
     -    [ Ejercicio #3](Semana1/ejercicio3) 
-    -    [ Ejercicio #3](Semana1/ejercicio4)
+    -    [ Ejercicio #4](Semana1/ejercicio4)
     
 - Semana 2: [ Javascript ](src/technologies/2022/week02)
 - Semana 3: [ Javascript ](src/technologies/2022/week03)
