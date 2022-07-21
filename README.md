@@ -12,6 +12,7 @@
 
 
 - # Semana 1: Introducciónes a la programación y Javascript
+  
   ## Chalenges (Tuesday 07/19) 💻
     -    [ Ejercicio #1](Semana1/Ejercicio1.md)
     -    [ Ejercicio #2](Semana1/ejercicio2.md ) 
@@ -19,7 +20,8 @@
     
   ## Challenges (Wednesday 07/20) 💻
     -    [ Ejercicio #4](Semana1/ejercicio4.md )
-      # MIPS
+     
+     # MIPS
     -    [ Ejercicio #5](Semana1/ejercicio5.md ) 
     -    [ Ejercicio #6](Semana1/ejercicio6.md )  
   
