@@ -5,13 +5,13 @@
 -       message2: .asciiz "\nRandy E. Moran B\n"        
 -
 -  .text
-        main:
-              li $v0, 4
-              la $a0, message
-              syscall
-              li $v0, 4
-              la $a0, message2
-              syscall
+-       main:
+-             li $v0, 4
+-             la $a0, message
+-             syscall
+-             li $v0, 4
+-             la $a0, message2
+-             syscall
 
 
 # RESULTADO
