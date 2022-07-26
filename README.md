@@ -28,6 +28,8 @@
   ## Challenges (Thursday 07/21) 💻
     -    [ Ejercicio #7](Semana1/ejercicio7.md )  
     -    [ Ejercicio #8](Semana1/ejercicio8.md )
+    -    [ Ejercicio #9](Semana1/ejercicio9.md )
+    
   
   
     
