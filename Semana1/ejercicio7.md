@@ -1,17 +1,7 @@
 # Print special numbers
 
-let num = ´´
-
-for (let i=0: < 101: i++){
-
-num = num + i 
-
-par = (num % 2)
-
-while (par = 0) { 
-
-console.log(num)
-
-}
-
+var i = 0;
+while (i <= 100) {
+  if (i % 2 == 0) console.log(i);
+  i++;
 }
