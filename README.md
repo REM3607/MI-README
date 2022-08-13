@@ -30,15 +30,27 @@
     -    [ Ejercicio #8](Semana1/ejercicio8.md )
     -    [ Ejercicio #9](Semana1/ejercicio9.md )
     
-  ## Challenges (Monday 07/25) 💻
-    -    [ Ejercicio #10 (Multiply)](Semana1/ejercicio7.md )  
-    -    [ Ejercicio #11(ASCII Total)](Semana1/ejercicio8.md )
+  ## Challenges Tuesday 07/26) 💻
+    -    [ Ejercicio #1 (Multiply)](Semana2/ejercicio1.md )  
+    -    [ Ejercicio #2(ASCII Total)](Semana2/ejercicio2.md )
       
-  ## Challenges (Monday 07/26) 💻
-    -    [ Ejercicio #1 (Char From ASCII Value )](Semana1/ejercicio7.md )  
-    -    [ Ejercicio #2 (Binary Addition)](Semana1/ejercicio8.md )
-    -    [ Ejercicio #3 (Student's Final Grade)](Semana1/ejercicio9.md )
+  ## Challenges (Wednesday 07/27) 💻
+    -    [ Ejercicio #3 (Char From ASCII Value )](Semana2/ejercicio3.md )  
+    -    [ Ejercicio #4 (Binary Addition)](Semana2/ejercicio4.md )
+    -    [ Ejercicio #5 (Student's Final Grade)](Semana2/ejercicio5.md )
   
+  ## Challenges (Thursday 07/28) 💻
+    -    [ Ejercicio #6 (Char From ASCII Value )](Semana2/ejercicio6.md )  
+    -    [ Ejercicio #7 (Binary Addition)](Semana2/ejercicio7.md )
+    -    [ Ejercicio #8 (Student's Final Grade)](Semana2/ejercicio8.md )
+    
+   
+   ## Extra (It is not mandatory for the Readme) ⭐
+    -     [Holiday VIII - Duty Free exercise](Semana2/ejercicio9.md )
+    -     [Twice As Old exercise](Semana2/ejercicio10.md )
+    -     [Valid Spacing exercise](Semana2/ejercicio11.md )
+    -     [Fake Binary exercise](Semana2/ejercicio12.md )
+    
   Week challenges (Monday) 💻
 Follow the github course, you can find it here
 Create an account in Codewars, follow this instructions
@@ -64,6 +76,7 @@ Remove All Exclamation Marks From The End Of Sentence exercise
 Vowel Remover exercise
 Rock Paper Scissors! exercise
 Persistent Bugger exercise
+
 Extra (It is not mandatory for the Readme) ⭐
 Holiday VIII - Duty Free exercise
 Twice As Old exercise
