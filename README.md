@@ -46,9 +46,10 @@
     
    
    ## Extra (It is not mandatory for the Readme) ⭐
-    -    [ Ejercicio #6 (Char From ASCII Value )](Semana2/ejercicio6.md )  
-    -    [ Ejercicio #7 (Binary Addition)](Semana2/ejercicio7.md )
-    -    [ Ejercicio #8 (Student's Final Grade)](Semana2/ejercicio8.md )
+    -    [ Ejercicio #9 (Holiday VIII - Duty Free)](Semana2/ejercicio9.md )  
+    -    [ Ejercicio #10 (Twice As Old)](Semana2/ejercicio10.md )
+    -    [ Ejercicio #11 (Valid Spacing)](Semana2/ejercicio11.md )
+    -    [ Ejercicio #12 (Fake Binary)](Semana2/ejercicio12.md )
     
     -     [Holiday VIII - Duty Free exercise](Semana2/ejercicio9.md )
     -     [Twice As Old exercise](Semana2/ejercicio10.md )
