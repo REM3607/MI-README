@@ -51,7 +51,7 @@
     -    [ Ejercicio #11 (Valid Spacing)](Semana2/ejercicio11.md )
     -    [ Ejercicio #12 (Fake Binary)](Semana2/ejercicio12.md )
     
-    -     [Holiday VIII - Duty Free exercise](Semana2/ejercicio9.md )
+    -     [ Holiday VIII - Duty Free exercise](Semana2/ejercicio9.md )
     -     [Twice As Old exercise](Semana2/ejercicio10.md )
     -     [Valid Spacing exercise](Semana2/ejercicio11.md )
     -     [Fake Binary exercise](Semana2/ejercicio12.md )
