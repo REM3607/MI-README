@@ -30,6 +30,8 @@
     -    [ Ejercicio #8](Semana1/ejercicio8.md )
     -    [ Ejercicio #9](Semana1/ejercicio9.md )
     
+# Javascript - Week 2
+    
   ## Challenges Tuesday 07/26) 💻
     -    [ Ejercicio #1 (Multiply)](Semana2/ejercicio1.md )  
     -    [ Ejercicio #2(ASCII Total)](Semana2/ejercicio2.md )
