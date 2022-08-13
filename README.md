@@ -43,16 +43,17 @@
     -    [ Ejercicio #5 (Student's Final Grade)](Semana2/ejercicio5.md )
   
   ## Challenges (Thursday 07/28) 💻
-    -    [ Ejercicio #6 (Char From ASCII Value )](Semana2/ejercicio6.md )  
-    -    [ Ejercicio #7 (Binary Addition)](Semana2/ejercicio7.md )
-    -    [ Ejercicio #8 (Student's Final Grade)](Semana2/ejercicio8.md )
+    -    [ Ejercicio #6 (Remove All Exclamation Marks From The End Of Sentence)](Semana2/ejercicio6.md )  
+    -    [ Ejercicio #7 (Vowel Remover)](Semana2/ejercicio7.md )
+    -    [ Ejercicio #8 (Rock Paper Scissors!)](Semana2/ejercicio8.md )
+    -    [ Ejercicio #9 (Persistent Bugger)](Semana2/ejercicio9.md )
     
    
    ## Extra (It is not mandatory for the Readme) ⭐
-    -    [ Ejercicio #9 (Holiday VIII - Duty Free)](Semana2/ejercicio9.md )  
-    -    [ Ejercicio #10 (Twice As Old)](Semana2/ejercicio10.md )
-    -    [ Ejercicio #11 (Valid Spacing)](Semana2/ejercicio11.md )
-    -    [ Ejercicio #12 (Fake Binary)](Semana2/ejercicio12.md )
+    -    [ Ejercicio #9 (Holiday VIII - Duty Free)](Semana2/ejercicio10.md )  
+    -    [ Ejercicio #10 (Twice As Old)](Semana2/ejercicio11.md )
+    -    [ Ejercicio #11 (Valid Spacing)](Semana2/ejercicio12.md )
+    -    [ Ejercicio #12 (Fake Binary)](Semana2/ejercicio13.md )
     
  
  
