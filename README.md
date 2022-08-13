@@ -30,6 +30,45 @@
     -    [ Ejercicio #8](Semana1/ejercicio8.md )
     -    [ Ejercicio #9](Semana1/ejercicio9.md )
     
+  ## Challenges (Monday 07/25) 💻
+    -    [ Ejercicio #10 (Multiply)](Semana1/ejercicio7.md )  
+    -    [ Ejercicio #11(ASCII Total)](Semana1/ejercicio8.md )
+      
+  ## Challenges (Monday 07/26) 💻
+    -    [ Ejercicio #1 (Char From ASCII Value )](Semana1/ejercicio7.md )  
+    -    [ Ejercicio #2 (Binary Addition)](Semana1/ejercicio8.md )
+    -    [ Ejercicio #3 (Student's Final Grade)](Semana1/ejercicio9.md )
+  
+  Week challenges (Monday) 💻
+Follow the github course, you can find it here
+Create an account in Codewars, follow this instructions
+Read about: if...else
+Read about: for
+Read about: while
+Read about: functions
+Week challenges (Tuesday) 💻
+Start this HTML course
+Multiply exercise
+ASCII Total exercise
+
+Week challenges (Wednesday) 💻
+Follow up with the HTML course you started on Tuesday
+Char From ASCII Value exercise
+Binary Addition exercise
+Student's Final Grade exercise
+
+
+Week challenges (Thursday) 💻
+Follow up with the HTML course you started on Tuesday
+Remove All Exclamation Marks From The End Of Sentence exercise
+Vowel Remover exercise
+Rock Paper Scissors! exercise
+Persistent Bugger exercise
+Extra (It is not mandatory for the Readme) ⭐
+Holiday VIII - Duty Free exercise
+Twice As Old exercise
+Valid Spacing exercise
+Fake Binary exercise
   
   
     
