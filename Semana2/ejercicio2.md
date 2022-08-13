@@ -13,3 +13,5 @@ for (let i = 0; i < string.length; i++){
   return acumulador
   
 }
+
+console.log(uniTotal("aaa"))
