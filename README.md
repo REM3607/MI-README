@@ -59,23 +59,23 @@
 
  
   ## Challenges Monday 08/1) 💻
-    -    [ Ejercicio #1 (Who Likes It?)](Semana2/ejercicio1.md )  
-    -    [ Ejercicio #2(Bit Counting)](Semana2/ejercicio2.md )
-    -    [ Ejercicio #3(Your Order, Please)](Semana3/ejercicio2.md )
+    -    [ Ejercicio #1 (Who Likes It?)](Semana3/ejercicio1.md )  
+    -    [ Ejercicio #2(Bit Counting)](Semana3/ejercicio2.md )
+    -    [ Ejercicio #3(Your Order, Please)](Semana3/ejercicio3.md )
     
   ## Challenges Tuesday 08/2) 💻
-    -    [ Ejercicio #4 (Simple Pig Latin)](Semana2/ejercicio1.md )  
-    -    [ Ejercicio #5(Counting Duplicates)](Semana2/ejercicio2.md )
-    -    [ Ejercicio #6(Decode The Morse Code)](Semana2/ejercicio2.md )
+    -    [ Ejercicio #4 (Simple Pig Latin)](Semana3/ejercicio4.md )  
+    -    [ Ejercicio #5(Counting Duplicates)](Semana3/ejercicio5.md )
+    -    [ Ejercicio #6(Decode The Morse Code)](Semana3/ejercicio6.md )
       
   ## Challenges (Wednesday 08/3) 💻
-    -    [ Ejercicio #7 (Valid Parentheses)](Semana2/ejercicio3.md )  
-    -    [ Ejercicio #8 (Convert String To Camel Case)](Semana2/ejercicio4.md )
-    -    [ Ejercicio #9 (Unique In Order)](Semana2/ejercicio5.md )
+    -    [ Ejercicio #7 (Valid Parentheses)](Semana3/ejercicio7.md )  
+    -    [ Ejercicio #8 (Convert String To Camel Case)](Semana3/ejercicio8.md )
+    -    [ Ejercicio #9 (Unique In Order)](Semana3/ejercicio9.md )
   
   ## Challenges (Thursday 08/4) 💻
-    -    [ Ejercicio #10 (Fold An Array)](Semana2/ejercicio6.md )  
-    -    [ Ejercicio #11 (Encrypt This!)](Semana2/ejercicio7.md )
+    -    [ Ejercicio #10 (Fold An Array)](Semana3/ejercicio10.md )  
+    -    [ Ejercicio #11 (Encrypt This!)](Semana3/ejercicio11.md )
     -    [ Ejercicio #12 (Rock Paper Scissors!)](Semana2/ejercicio8.md )
 
 Week challenges (Monday) 💻
