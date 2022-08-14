@@ -50,10 +50,10 @@
     
    
    ## Extra (It is not mandatory for the Readme) ⭐
-    -    [ Ejercicio #9 (Holiday VIII - Duty Free)](Semana2/ejercicio10.md )  
-    -    [ Ejercicio #10 (Twice As Old)](Semana2/ejercicio11.md )
-    -    [ Ejercicio #11 (Valid Spacing)](Semana2/ejercicio12.md )
-    -    [ Ejercicio #12 (Fake Binary)](Semana2/ejercicio13.md )
+    -    [ Ejercicio #10 (Holiday VIII - Duty Free)](Semana2/ejercicio10.md )  
+    -    [ Ejercicio #11 (Twice As Old)](Semana2/ejercicio11.md )
+    -    [ Ejercicio #12 (Valid Spacing)](Semana2/ejercicio12.md )
+    -    [ Ejercicio #13 (Fake Binary)](Semana2/ejercicio13.md )
     
  
  
