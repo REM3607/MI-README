@@ -56,8 +56,7 @@
     -    [ Ejercicio #13 (Fake Binary)](Semana2/ejercicio13.md )
  
  - # Javascript - Week 3
-
-    
+ 
   ## Challenges Monday 08/1) 💻
     -    [ Ejercicio #1 (Who Likes It?)](Semana2/ejercicio1.md )  
     -    [ Ejercicio #2(Bit Counting)](Semana2/ejercicio2.md )
