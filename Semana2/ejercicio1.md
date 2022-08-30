@@ -8,5 +8,5 @@ function multiply(a, b){
 }
 
 console.log(multiply(5,4))
-```JavaScript
+```
 
