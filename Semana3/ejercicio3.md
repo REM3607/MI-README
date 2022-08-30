@@ -1,6 +1,6 @@
 ## Your order, please
 
-
+```JavaScript
 function order(words) {
   let ordenado = [];
   let palabra = words.split(' ');
@@ -25,3 +25,4 @@ function limpiar(array) {
   }
   return result;
 }
+```
