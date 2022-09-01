@@ -25,8 +25,7 @@ function duplicateCount(text) {
    let i = 0,
     result = 0,
     lastIndexOfChar = 0;
-  //while (textArray.length) {
-  for (let j = 0; textArray.length; j++ ) {
+   for (let j = 0; textArray.length; j++ ) {
     lastIndexOfChar = textArray.lastIndexOf(textArray[i]);
     if (lastIndexOfChar !== i) {
       i = lastIndexOfChar;
@@ -35,7 +34,6 @@ function duplicateCount(text) {
     textArray = textArray.slice(++i);
     i = 0;
   }
-  frase = result;  
-  return result;
+    return result;
 }
 ```
