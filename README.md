@@ -97,9 +97,11 @@ Classes with Typescript
 Concept of instance
 
 ## Challenges (Monday 08/22) 💻
-    -    [ Declare variable types in TypeScript guided exercise, using Typescript ](Semana3/ejercicio10.md )  
-    -    [ TypeScript Object Type ](Semana3/ejercicio11.md )
-    -    [ TypeScript Unions ](Semana3/ejercicio11.md )
+
+    -     [ Declare variable types in TypeScript guided exercise, using Typescript ](Semana6/ejercicio1.md )  
+    -     [ TypeScript Object Type ](Semana6/ejercicio2.md )
+    -     [ TypeScript Unions ](Semana3/ejercicio3.md )
+    
     
 Week challenges (Monday) 💻
   - [Declare variable types in TypeScript guided exercise, using Typescript
