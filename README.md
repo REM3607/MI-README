@@ -103,7 +103,22 @@ Concept of instance
   -    [ TypeScript Object Type ](Semana6/ejercicio2.md )
   -    [ TypeScript Unions ](Semana3/ejercicio3.md )
     
-    
+- ## Challenges (Tuesday 08/22) 💻
+  -    [ Square(n) Sum ](Semana6/ejercicio4.md )  
+  -    [ A Wolf In Sheep's Clothing ](Semana6/ejercicio5.md )
+  
+- ## Challenges (Wednesday 08/22) 💻
+  -    [ A Rule Of Divisibility By 13 ](Semana6/ejercicio6.md )  
+  -    [ Playing With Digits ](Semana6/ejercicio7.md )
+  
+
+- ## Challenges (Thusday 08/22) 💻
+  -    [ Declare and instantiate classes](Semana6/ejercicio8.md )  
+  -    [ Tile exercise ](Semana6/ejercicio9.md )
+  -    [ Time exercise ](Semana3/ejercicio10.md )
+  -    [ Rational exercise ](Semana3/ejercicio11.md )
+
+
 Week challenges (Monday) 💻
   - [Declare variable types in TypeScript guided exercise, using Typescript
   
