@@ -76,7 +76,52 @@
   ## Challenges (Thursday 08/4) 💻
     -    [ Ejercicio #10 (Fold An Array)](Semana3/ejercicio10.md )  
     -    [ Ejercicio #11 (Encrypt This!)](Semana3/ejercicio11.md )
-    -    [ Ejercicio #12 (Rock Paper Scissors!)](Semana2/ejercicio8.md )
+    
+    
+# Typescript - Week 6
+
+## Week goal 🏁
+ Learn about classes, instances, inheritance and data type with Typescript
+
+## Week subtopics
+Introduction to Object Oriented Programming
+Abstraction
+Inheritance
+Polymorphism
+Encapsulation
+Concept of class
+Attributes
+Methods
+Constructor
+Classes with Typescript
+Concept of instance
+
+## Challenges (monday 08/22) 💻
+    -    [ Declare variable types in TypeScript guided exercise, using Typescript ](Semana3/ejercicio10.md )  
+    -    [ TypeScript Object Type ](Semana3/ejercicio11.md )
+    -    [ TypeScript Unions ](Semana3/ejercicio11.md )
+    
+Week challenges (Monday) 💻
+  - [Declare variable types in TypeScript guided exercise, using Typescript
+TypeScript Object Type exercise
+TypeScript Unions exercise
+
+Week challenges (Tuesday) 💻
+Square(n) Sum exercise, using Typescript
+A Wolf In Sheep's Clothing exercise, using Typescript
+
+Week challenges (Wednesday) 💻
+A Rule Of Divisibility By 13 exercise, using Typescript
+Playing With Digits exercise, using Typescript
+
+Week challenges (Thursday) 💻
+Declare and instantiate classes in TypeScript guided exercise, using Typescript
+Tile exercise, using Typescript
+Time exercise, using Typescript
+Rational exercise, using Typescript
+
+
+
 
 Week challenges (Monday) 💻
 Who Likes It? exercise
@@ -97,6 +142,11 @@ Week challenges (Thursday) 💻
 Fold An Array exercise
 Encrypt This! exercise
 ✨Complete your 1st Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+ 
+ 
+ 
+ 
+ 
  
  
  
