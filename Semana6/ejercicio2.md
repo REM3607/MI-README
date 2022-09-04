@@ -14,7 +14,7 @@ Exercise:
 
     Given the data, define the interface "User" and use it accordingly.
 
-*/
+```JavaScript
 
 export type User = {
 name: string;
@@ -42,8 +42,5 @@ export function logPerson(user: User) {
 console.log('Users:');
 users.forEach(logPerson);
 
+```
 
-/* In case if you are stuck:
-
-// https://www.typescriptlang.org/docs/handbook/2/objects.html
-*/
