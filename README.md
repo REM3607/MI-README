@@ -96,7 +96,7 @@ Constructor
 Classes with Typescript
 Concept of instance
 
-## Challenges (monday 08/22) 💻
+## Challenges (Monday 08/22) 💻
     -    [ Declare variable types in TypeScript guided exercise, using Typescript ](Semana3/ejercicio10.md )  
     -    [ TypeScript Object Type ](Semana3/ejercicio11.md )
     -    [ TypeScript Unions ](Semana3/ejercicio11.md )
