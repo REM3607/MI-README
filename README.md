@@ -103,73 +103,23 @@ Concept of instance
   -    [ TypeScript Object Type ](Semana6/ejercicio2.md )
   -    [ TypeScript Unions ](Semana3/ejercicio3.md )
     
-- ## Challenges (Tuesday 08/22) 💻
+- ## Challenges (Tuesday 08/24) 💻
   -    [ Square(n) Sum ](Semana6/ejercicio4.md )  
   -    [ A Wolf In Sheep's Clothing ](Semana6/ejercicio5.md )
   
-- ## Challenges (Wednesday 08/22) 💻
+- ## Challenges (Wednesday 08/25) 💻
   -    [ A Rule Of Divisibility By 13 ](Semana6/ejercicio6.md )  
   -    [ Playing With Digits ](Semana6/ejercicio7.md )
   
 
-- ## Challenges (Thusday 08/22) 💻
+- ## Challenges (Thusday 08/26) 💻
   -    [ Declare and instantiate classes](Semana6/ejercicio8.md )  
   -    [ Tile exercise ](Semana6/ejercicio9.md )
-  -    [ Time exercise ](Semana3/ejercicio10.md )
-  -    [ Rational exercise ](Semana3/ejercicio11.md )
+  -    [ Time exercise ](Semana6/ejercicio10.md )
+  -    [ Rational exercise ](Semana6/ejercicio11.md )
 
-
-Week challenges (Monday) 💻
-  - [Declare variable types in TypeScript guided exercise, using Typescript
-  
-TypeScript Object Type exercise
-TypeScript Unions exercise
-
-Week challenges (Tuesday) 💻
-Square(n) Sum exercise, using Typescript
-A Wolf In Sheep's Clothing exercise, using Typescript
-
-Week challenges (Wednesday) 💻
-A Rule Of Divisibility By 13 exercise, using Typescript
-Playing With Digits exercise, using Typescript
-
-Week challenges (Thursday) 💻
-Declare and instantiate classes in TypeScript guided exercise, using Typescript
-Tile exercise, using Typescript
-Time exercise, using Typescript
-Rational exercise, using Typescript
-
-
-
-
-Week challenges (Monday) 💻
-Who Likes It? exercise
-Bit Counting exercise
-Your Order, Please exercise
-
-Week challenges (Tuesday) 💻
-Simple Pig Latin exercise
-Counting Duplicates exercise
-Decode The Morse Code exercise
-
-Week challenges (Wednesday) 💻
-Valid Parentheses exercise
-Convert String To Camel Case exercise
-Unique In Order exercise
-
-Week challenges (Thursday) 💻
-Fold An Array exercise
-Encrypt This! exercise
-✨Complete your 1st Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
  
- 
- 
- 
- 
- 
- 
- 
-- Semana 2: [ Javascript ](src/technologies/2022/week02)
+
 - Semana 3: [ Javascript ](src/technologies/2022/week03)
 - Semana 4: [ Javascript y día de pausa ](src/technologies/2022/week04)
 - Semana 5: [ Fin de mes y Texto mecanografiado](src/technologies/2022/week05)
