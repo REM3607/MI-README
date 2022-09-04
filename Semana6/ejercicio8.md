@@ -15,3 +15,4 @@ The Car class can be reused to create any number of new Car objects, each with t
 For example, an ElectricCar class might extend Car. 
 It will have all the same attributes and behaviors of Car but can also have its own unique attributes and behaviors, like its range and a charging operation.
 
+![m05-car-class](https://user-images.githubusercontent.com/108378310/188298228-7e5b47bd-7108-4de5-bba0-350940710103.png)
