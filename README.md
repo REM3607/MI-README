@@ -79,7 +79,7 @@
  
     
     
-- # Typescript - Week 6
+# Typescript - Week 6
 
 
 ## Week goal 🏁
