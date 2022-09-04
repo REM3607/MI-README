@@ -76,9 +76,11 @@
   ## Challenges (Thursday 08/4) 💻
     -    [ Ejercicio #10 (Fold An Array)](Semana3/ejercicio10.md )  
     -    [ Ejercicio #11 (Encrypt This!)](Semana3/ejercicio11.md )
+ 
     
     
-# Typescript - Week 6
+- # Typescript - Week 6
+
 
 ## Week goal 🏁
  Learn about classes, instances, inheritance and data type with Typescript
@@ -96,7 +98,7 @@ Constructor
 Classes with Typescript
 Concept of instance
 
-  ## Challenges (Monday 08/22) 💻
+-## Challenges (Monday 08/22) 💻
     -    [ Declare variable types in TypeScript guided exercise, using Typescript ](Semana6/ejercicio1.md )  
     -    [ TypeScript Object Type ](Semana6/ejercicio2.md )
     -    [ TypeScript Unions ](Semana3/ejercicio3.md )
