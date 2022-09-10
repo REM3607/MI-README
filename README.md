@@ -131,8 +131,6 @@
 3. [String Cleaning](./exercises/e02/desc) exercise
 4. [Password Validation](./exercises/e03/desc) exercise
 
-## Week links 🔗
-
 ## Session links 🔗
 
 1. [Javascript Objects - Session example 05](https://github.com/corecodeio/funda03-e05)
@@ -180,7 +178,6 @@
 3. [What's Your Poison?](./exercises/e02/desc) exercise
 4. [Array.diff](./exercises/e03/desc) exercise
 
-## Week links 🔗
 
 ## Session links 🔗
 
