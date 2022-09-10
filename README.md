@@ -225,7 +225,16 @@ Concept of instance
   -    [ Tile exercise ](Semana6/ejercicio9.md )
   -    [ Time exercise ](Semana6/ejercicio10.md )
   -    [ Rational exercise ](Semana6/ejercicio11.md )
+ 
+## Week links 🔗
 
+1. [Everyday types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html) in typescript
+
+## Session links 🔗
+
+1. [OOP Typescript - Session example 08](https://github.com/corecodeio/funda03-e08)
+2. [More OOP Typescript - Session example 09](https://github.com/corecodeio/funda03-e09)
+ 
  
 <h1 align="center">Typescript - Week 7</h1>
 
