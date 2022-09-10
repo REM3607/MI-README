@@ -258,6 +258,7 @@ Los miembros privados pueden acceder o modificar dentro de la clase, pero no fue
 ![1_EnaOEB2ZZ_h1U93U-rB6hQ](https://user-images.githubusercontent.com/108378310/189503504-6fca9650-d6cc-4329-b933-2dd6f33b8400.png)
 
 Output
+
 ![1_pm5nmIr4Ow76lFqpBDP9fw](https://user-images.githubusercontent.com/108378310/189503506-fbcd22c0-7085-42cd-8163-788df0bc36a1.png)
 
 Aquí la edad es un miembro privado al que se accede mediante el método de visualización que se encuentra dentro de la clase Empleado.
