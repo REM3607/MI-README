@@ -1,15 +1,7 @@
 
 Programación Orientada a Objetos usando Typescript
 
-
-
 ![1_n64atUMpf_v28pT7DwaVPg](https://user-images.githubusercontent.com/108378310/189501090-a0863e20-ef81-4f0c-9e32-fb37846b8c6d.jpg)
-
-
-
-
-
-
 
 
 La codificación con objetos y clases facilita la vida de un desarrollador. La programación orientada a objetos es una metodología para simplificar el desarrollo de software, aplicaciones, paquetes, etc. Los principales pilares de la programación orientada a objetos son:
@@ -168,7 +160,7 @@ console.log(object.add(1,1));
 Encapsular códigos y datos en una sola unidad se denomina encapsulación. Podemos lograrlo usando los modificadores de acceso. Por ejemplo, podemos crear una clase completamente encapsulada haciendo que todos sus miembros sean privados.
 
 
-5. Class and 6. Object
+## 5. Class and 6. Object
 Clases y Objetos
 Consideremos una analogía de Juan que deseaba construir una casa. John primero se acercó a una arquitectura y la arquitectura le dio a John un plano de la casa antes de comenzar la construcción o la ocurrencia de la casa.
 
