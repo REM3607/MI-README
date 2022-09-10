@@ -1,193 +1,362 @@
 
-Object Oriented Programming using Typescript
+Programación Orientada a Objetos usando Typescript
 
-![1_n64atUMpf_v28pT7DwaVPg](https://user-images.githubusercontent.com/108378310/189500985-df9f2c8d-7023-4908-8a0c-bf723f87dc1c.jpg)
 
-Coding with objects and classes makes the life of a developer easier. Object oriented programming is a methodology to simplify the development of softwares, applications, packages etc. The main pillars of OOPs are:
 
-Class
-Object
-Inheritance
-Polymorphism
-Abstraction
-Encapsulation
-Here we will learn each of these concepts one by one.
+![1_n64atUMpf_v28pT7DwaVPg](https://user-images.githubusercontent.com/108378310/189501090-a0863e20-ef81-4f0c-9e32-fb37846b8c6d.jpg)
 
-Classes and Objects
-Let’s consider an analogy of John who wished to build a house. John first approached to an architecture and the architecture gave John a blueprint of the house before beginning the construction or the occurrence of the house.
 
 
-![1_cRVD88ogFfm05tBgrb0nxg](https://user-images.githubusercontent.com/108378310/189501007-6024c233-d443-4ca9-93af-bf0d611df84d.gif)
 
 
-Here we can relate the blueprint to a class and after the construction the house will be the object.
 
-Notice the blueprint doesn’t have any space on the earth’s surface whereas the house will have some space on the earth’s surface. Similarly classes don’t consume any space in the memory but objects consume some space in the memory.
 
-Let’s take an example using typescript:
 
+La codificación con objetos y clases facilita la vida de un desarrollador. La programación orientada a objetos es una metodología para simplificar el desarrollo de software, aplicaciones, paquetes, etc. Los principales pilares de la programación orientada a objetos son:
 
-In the above example we have defined a class called Employee which have two members one is “name” of type string another is “age” of type number. On line number 10 we have instantiated an object called emp of type Employee. Since emp is the object of type Employee it must have the name and age property. On line 11 and 12 we are accessing those properties using dot(.) operator.
+# Glosario
 
-Note-
+1. Abstraction
+La abstracción es simplemente ocultar detalles internos y mostrar funcionalidades. Nos permite centrarnos en lo que hace un objeto en lugar de cómo lo hace.
 
-Constructor is a special type of method which initialises the object. In above example on line number 10 the two arguments viz. “John” and 24 are passed to the constructor of the class Employee.
-“This” is a reference variable that refers to the current object.
-Inheritance
-It is not efficient to write block of codes over and over again. Developers love code reusability. Inheritance provides code reusability to the developers. It is the mechanism through which a class inherits or acquires properties of another class.
+La abstracción se puede lograr de dos maneras:
 
-The class from which properties are inherited is called the base/super/parent class and the class which acquires the property is called the derived/child/sub class.
+Usando clase abstracta
+Usando la interfaz
+Clase abstracta
+Definimos una clase abstracta en mecanografiado usando una palabra clave abstracta antes de la palabra clave de clase.
+No se puede crear una instancia de una clase abstracta. Pero otras clases pueden derivarse de él.
+La clase que extiende una clase abstracta debe definir todos los métodos o propiedades abstractas.
+La clase que extiende la clase abstracta debe llamar a super en el constructor.
+Tomemos un ejemplo:
 
-Let’s take an example of an organisation which have managers and area managers. Manager is the base class with four properties viz. ‘firstName’, ‘lastName’, ‘salary’ and ‘email’. AreaManager will also have these four properties along with a new property called ‘area’.
+```JavaScript
+ abstract class Children {
+    name: string;
+    
+    constructor(name: string) {
+        this.name = name;
+    }
 
-It is clear that if we make a set of the properties of each class then AreaManager will be a superset of Manager. In other words Properties of Manager can be inherited to the AreaManager.
+    display(): void{
+        console.log(this.name);
+    }
 
+    abstract find(rollNo: number): Children;
+}
 
-So to reuse the codes/properties of Manager we can inherit it within AreaManager and it can be done using the keyword extends.
+class Student extends Children { 
+    rollNo: number;
+    
+    constructor(name: string, rollNo: number) { 
+        super(name); // must call super()
+        this.rollNo = rollNo;
+    }
 
-note: ‘super’ is a keyword used to call the parent constructor and its value.
+    find(rollNo:number): Children { 
+      /* 
+      *
+      *
+      perfom db query to find 
+      a student of the specific rollNo
+      let the student be Luigi with roll no 101
+      *
+      *
+      */
+        let roll: number=101;
+        let name: string = "Luigi";
+        return new Student(name, roll);
+    }
+}
 
+let emp: Children = new Student("John", 100);
+emp.display(); 
 
-output:
+let emp2: Children = emp.find(101);
+emp2.display();
 
+```
 
-Types of Inheritance
-Single inheritance
-Multilevel Inheritance
-Multiple Inheritance
-Hierarchical inheritance
-Hybrid inheritance
-Single Inheritance
-When a single class inherits another single class . Above example is a single inheritance.
+## 2. Inheritance (Herencia)
 
-Multilevel Inheritance
+No es eficiente escribir bloques de códigos una y otra vez. A los desarrolladores les encanta la reutilización del código. La herencia proporciona reutilización de código a los desarrolladores. Es el mecanismo a través del cual una clase hereda o adquiere propiedades de otra clase.
 
-When there is a single chain of inheritance then it is called as multilevel inheritance. In the above example if a new class AreaSupervisor extends class AreaManager then it will be an example of multilevel inheritance.
+La clase de la que se heredan las propiedades se denomina clase base/superior/padre y la clase que adquiere la propiedad se denomina clase derivada/secundaria/sub.
 
-Multiple Inheritance
+Tomemos un ejemplo de una organización que tiene gerentes y gerentes de área. Manager es la clase base con cuatro propiedades a saber. 'nombre', 'apellido', 'salario' y 'correo electrónico'. AreaManager también tendrá estas cuatro propiedades junto con una nueva propiedad llamada 'área'.
 
-When a sub class inherits from more than one base class. Typescript does not support multiple inheritance.
+Está claro que si hacemos un conjunto de las propiedades de cada clase, AreaManager será un superconjunto de Manager. En otras palabras, las propiedades del administrador se pueden heredar al AreaManager.
 
-Hierarchical Inheritance
+![1_DFUlyiM5Zal6-JL8cdlPfw](https://user-images.githubusercontent.com/108378310/189501283-df5f301f-b3b9-4d2d-84fc-42e0eae5c8f7.png)
 
-When more than one sub classes are inherited from a single base class.
 
-Hybrid Inheritance
+Entonces, para reutilizar los códigos/propiedades de Manager, podemos heredarlos dentro de AreaManager y se puede hacer usando la palabra clave extends.
 
-Combination of more than one type of inheritance is called hybrid inheritance. To reduce complexity typescript does not support hybrid inheritance.
+nota: ' super ' es una palabra clave utilizada para llamar al constructor principal y su valor.
 
-Polymorphism
-Poly signifies many and meaning of morph is shape, so polymorphism is basically executing a function in many ways. Polymorphism is another way after inheritance to achieve code reusability.
+```JavaScript
+// Base class
+class Manager{               
+  firstName : string;
+  lastName : string;
+  salary: number
+  email: string;
+
+  constructor(firstName: string, lastName: string, salary: number, email: string){
+    this.firstName= firstName;
+    this.lastName= lastName;
+    this.email= email;
+    this.salary= salary;
+  }
+}
+
+//Derived class
+class AreaManager extends Manager{ 
+  area: string;
+  constructor(firstName: string, lastName: string, salary: number, email: string, area: string){
+    super(firstName, lastName, salary, email);
+    this.area= area;
+  }
+}
 
-Polymorphism can be achieved by:
+const manager = new Manager("John", "Doe", 25000, "john@xyz.com");  
+const areaManager = new AreaManager("Chun", "Li", 35000, "chun@xyz.com", "Los Angeles");
 
-Method Overloading
-Method Overriding
-Method Overloading
-In typescript we can have multiple function with the same name using different parameter types and return types. Unlike java, in typescript the number of parameters must be same. Let’s understand this with two examples:
+console.log(`Manager's name: ${manager.firstName} ${manager.lastName}`);
+console.log(`Manager's salary: ${manager.salary}`);
+console.log(`Area Manager's name: ${areaManager.firstName} ${areaManager.lastName}`);
+console.log(`Area Manager's salary: ${areaManager.salary}`);
+console.log(`Area Manager's area of duty: ${areaManager.area}`);
+```
+## 3. Polymorphism (Polimorfismo)
+Poly significa muchos y el significado de morph es forma, por lo que el polimorfismo básicamente ejecuta una función de muchas maneras. El polimorfismo es otra forma después de la herencia para lograr la reutilización del código.
 
+El polimorfismo se puede lograr mediante:
 
-output:
+Sobrecarga de métodos
+Anulación de métodos
+Sobrecarga de métodos
+En TypeScript podemos tener múltiples funciones con el mismo nombre usando diferentes tipos de parámetros y tipos de devolución. A diferencia de java, en mecanografiado el número de parámetros debe ser el mismo. Entendamos esto con dos ejemplos:
 
+```JavaScript
+class Example{
+  
+  /**
+  function declaration
+  **/
+  add(a:string, b:string): string;
+  add(a:number, b:number): number; // method add is overloaded by providinng different parameter type and return type
+  
+  /**
+  function definition
+  **/
+  add(a:any, b:any):any{
+    return a+b;
+  }
+  
+}
 
-Here, Example is a class containing method add. On line 7 we are trying to overload the function add by changing the parameter type and return type to number. Since we may provide parameter of type string as well as number so in the function definition we provide the parameter type and return type as any. In the output the function add is overloaded and returning us two different outputs.
+let object= new Example();
+  /**
+  print to console
+  **/
+console.log(object.add("Hello ","John"));
+console.log(object.add(1,1));
+```
 
-Now let’s try providing different number of parameters:
 
 
-output:
+6. 5. Encapsulation
+7. Class
+8. Object
+9. Instance
+10. Interface
+11. Access Modifiers
+12. Constructors
 
 
-Hence it is not allowed in typescript.
 
-Method Overriding
-To implement method overriding we must use inheritance and in the child class we provide different definition of functions that have been previously declared in the base class. Let’s take an example:
+Clase
+Objeto
+Herencia
+Polimorfismo
+Abstracción
+Encapsulación
+Aquí aprenderemos cada uno de estos conceptos uno por uno.
 
+Clases y Objetos
+Consideremos una analogía de Juan que deseaba construir una casa. John primero se acercó a una arquitectura y la arquitectura le dio a John un plano de la casa antes de comenzar la construcción o la ocurrencia de la casa.
 
-Output:
 
+Aquí podemos relacionar el plano con una clase y después de la construcción, la casa será el objeto.
 
-In the above example subclass Macbook and subclass DellLaptop both extends base class Laptop. Laptop has a method getOS(). We are overriding this method in both the subclasses by simply defining it uniquely in each time.
+Observe que el plano no tiene ningún espacio en la superficie de la tierra, mientras que la casa tendrá algo de espacio en la superficie de la tierra. De manera similar, las clases no consumen espacio en la memoria, pero los objetos consumen algo de espacio en la memoria.
 
-Here we clearly see polymorphism where getOS() method is called three times but each time with a different output.
+Tomemos un ejemplo usando mecanografiado:
 
-Abstraction
-Abstraction is simply hiding internal details and showing functionalities. It lets us focus on what an object does instead of how it does.
 
-Abstraction can be achieved by two ways:
+En el ejemplo anterior, hemos definido una clase llamada Empleado que tiene dos miembros, uno es "nombre" de tipo cadena y otro es "edad" de tipo número. En la línea número 10 hemos instanciado un objeto llamado emp de tipo Empleado. Dado que emp es el objeto de tipo Empleado, debe tener la propiedad de nombre y edad. En las líneas 11 y 12 estamos accediendo a esas propiedades usando el operador punto (.).
 
-Using abstract class
-Using interface
-Abstract class
-We define an abstract class in typescript using an abstract keyword before the class keyword.
-Instance of an abstract class cannot be created. But other classes can be derived from it.
-The class which extends an abstract class must define all the abstract methods or properties.
-The class which extends abstract class must call super in the constructor.
-Let’s take an example:
+Nota-
 
+Constructor es un tipo especial de método que inicializa el objeto. En el ejemplo anterior en la línea número 10, los dos argumentos a saber. “John” y 24 se pasan al constructor de la clase Empleado.
+“Esto” es una variable de referencia que hace referencia al objeto actual.
+Herencia
+No es eficiente escribir bloques de códigos una y otra vez. A los desarrolladores les encanta la reutilización del código. La herencia proporciona reutilización de código a los desarrolladores. Es el mecanismo a través del cual una clase hereda o adquiere propiedades de otra clase.
 
-Output:
+La clase de la que se heredan las propiedades se denomina clase base/superior/padre y la clase que adquiere la propiedad se denomina clase derivada/secundaria/sub.
 
+Tomemos un ejemplo de una organización que tiene gerentes y gerentes de área. Manager es la clase base con cuatro propiedades a saber. 'nombre', 'apellido', 'salario' y 'correo electrónico'. AreaManager también tendrá estas cuatro propiedades junto con una nueva propiedad llamada 'área'.
 
-Interface
-It is a syntax for a class.
-It contains only the declaration of methods and properties. Classes implementing an interface must implement all its members and methods.
-It cannot be instantiated.
-It is used to type-check an object, whether it is followed by a specific structure or not .
-Interfaces can be inherited from other interfaces by using extends key word.
-Classes use implements keyword to implement an interface.
-Let’s take an example:
+Está claro que si hacemos un conjunto de las propiedades de cada clase, AreaManager será un superconjunto de Manager. En otras palabras, las propiedades del administrador se pueden heredar al AreaManager.
 
 
-In the above example interface IEmployee extends interface IUser, shows interfaces can be inherited from other interfaces. Again class Employee implements interface IEmployee.
+Entonces, para reutilizar los códigos/propiedades de Manager, podemos heredarlos dentro de AreaManager y se puede hacer usando la palabra clave extends.
 
-Now let’s see how interface is helping us to check the type.
+nota: ' super ' es una palabra clave utilizada para llamar al constructor principal y su valor.
 
 
-Output:
+producción:
 
 
-From the above example it is clear that when a class implements an interface it must implement all its member variables and methods and hence the type is checked.
+Tipos de herencia
+herencia única
+Herencia multinivel
+Herencia múltiple
+herencia jerárquica
+herencia híbrida
+Herencia Única
+Cuando una sola clase hereda otra sola clase. El ejemplo anterior es una herencia única.
 
-Access Modifiers
-To understand encapsulation we must first understand the access modifiers. There are three types of access modifiers in typescript:
+Herencia multinivel
 
-Public
-Private
-Protected
-Public
-By default all the members of a class are public in typescript that means we can access and modify them outside of the class. Let’s take an example:
+Cuando hay una sola cadena de herencia, se denomina herencia multinivel. En el ejemplo anterior, si una nueva clase AreaSupervisor extiende la clase AreaManager, será un ejemplo de herencia multinivel.
 
+Herencia múltiple
 
-Output:
+Cuando una subclase hereda de más de una clase base. Typescript no admite la herencia múltiple.
 
+Herencia jerárquica
 
-Private
-Private members are allowed to access or modify inside the class but not allowed outside of the class. Let’s take an example:
+Cuando se heredan más de una subclase de una sola clase base.
 
+herencia híbrida
 
-Output:
+La combinación de más de un tipo de herencia se denomina herencia híbrida. Para reducir la complejidad, el mecanografiado no admite la herencia híbrida.
 
+Polimorfismo
+Poly significa muchos y el significado de morph es forma, por lo que el polimorfismo básicamente ejecuta una función de muchas maneras. El polimorfismo es otra forma después de la herencia para lograr la reutilización del código.
 
-Here age is a private member which is accessed by the display method which is within the class Employee.
+El polimorfismo se puede lograr mediante:
 
-Now let’s see another scenario:
+Sobrecarga de métodos
+Anulación de métodos
+Sobrecarga de métodos
+En TypeScript podemos tener múltiples funciones con el mismo nombre usando diferentes tipos de parámetros y tipos de devolución. A diferencia de java, en mecanografiado el número de parámetros debe ser el mismo. Entendamos esto con dos ejemplos:
 
 
-Output:
+producción:
 
 
-Here we are trying to access age outside of the class which is not allowed.
+Aquí, Example es una clase que contiene el método add. En la línea 7 estamos tratando de sobrecargar la función agregar cambiando el tipo de parámetro y el tipo de retorno a número. Dado que podemos proporcionar un parámetro de tipo cadena, así como un número, en la definición de la función proporcionamos el tipo de parámetro y el tipo de retorno como cualquiera. En la salida la función add está sobrecargada y nos devuelve dos salidas diferentes.
 
-Protected
-Protected members can be accessed or modified within the class as well as within its child classes. For example:
+Ahora intentemos proporcionar un número diferente de parámetros:
 
 
-Output:
+producción:
 
 
-Here age is protected but it is accessed and modified through the child class member function display() and modify() respectively.
+Por lo tanto, no está permitido en mecanografiado.
 
-Encapsulation
-Wrapping codes and data into a single unit is called encapsulation. We can achieve it by using the access modifiers. For example we can create a fully encapsulated class by making all its members private.
+Anulación de métodos
+Para implementar la anulación de métodos, debemos usar la herencia y en la clase secundaria proporcionamos diferentes definiciones de funciones que se han declarado previamente en la clase base. Tomemos un ejemplo:
+
+
+Producción:
+
+
+En el ejemplo anterior, la subclase Macbook y la subclase DellLaptop amplían la clase base Laptop. La computadora portátil tiene un método getOS(). Estamos anulando este método en ambas subclases simplemente definiéndolo de forma única en cada momento.
+
+Aquí vemos claramente el polimorfismo donde el método getOS() se llama tres veces pero cada vez con una salida diferente.
+
+Abstracción
+La abstracción es simplemente ocultar detalles internos y mostrar funcionalidades. Nos permite centrarnos en lo que hace un objeto en lugar de cómo lo hace.
+
+La abstracción se puede lograr de dos maneras:
+
+Usando clase abstracta
+Usando la interfaz
+Clase abstracta
+Definimos una clase abstracta en mecanografiado usando una palabra clave abstracta antes de la palabra clave de clase.
+No se puede crear una instancia de una clase abstracta. Pero otras clases pueden derivarse de él.
+La clase que extiende una clase abstracta debe definir todos los métodos o propiedades abstractas.
+La clase que extiende la clase abstracta debe llamar a super en el constructor.
+Tomemos un ejemplo:
+
+
+Producción:
+
+
+Interfaz
+Es una sintaxis para una clase.
+Contiene sólo la declaración de métodos y propiedades. Las clases que implementan una interfaz deben implementar todos sus miembros y métodos.
+No se puede instanciar.
+Se utiliza para verificar el tipo de un objeto, ya sea que esté seguido por una estructura específica o no.
+Las interfaces se pueden heredar de otras interfaces utilizando la palabra clave extends.
+Las clases usan la palabra clave implements para implementar una interfaz.
+Tomemos un ejemplo:
+
+
+En el ejemplo anterior, la interfaz IEmployee amplía la interfaz IUser y muestra que las interfaces se pueden heredar de otras interfaces. De nuevo, la clase Employee implementa la interfaz IEmployee.
+
+Ahora veamos cómo la interfaz nos ayuda a verificar el tipo.
+
+
+Producción:
+
+
+Del ejemplo anterior, está claro que cuando una clase implementa una interfaz, debe implementar todas sus variables y métodos miembro y, por lo tanto, se verifica el tipo.
+
+Modificadores de acceso
+Para comprender la encapsulación, primero debemos comprender los modificadores de acceso. Hay tres tipos de modificadores de acceso en mecanografiado:
+
+Público
+Privado
+Protegido
+Público
+De forma predeterminada, todos los miembros de una clase son públicos en mecanografiado, lo que significa que podemos acceder a ellos y modificarlos fuera de la clase. Tomemos un ejemplo:
+
+
+Producción:
+
+
+Privado
+Los miembros privados pueden acceder o modificar dentro de la clase, pero no fuera de la clase. Tomemos un ejemplo:
+
+
+Producción:
+
+
+Aquí la edad es un miembro privado al que se accede mediante el método de visualización que se encuentra dentro de la clase Empleado.
+
+Ahora veamos otro escenario:
+
+
+Producción:
+
+
+Aquí estamos tratando de acceder a la edad fuera de la clase que no está permitida.
+
+Protegido
+Se puede acceder a los miembros protegidos o modificarlos dentro de la clase, así como dentro de sus clases secundarias. Por ejemplo:
+
+
+Producción:
+
+
+Aquí la edad está protegida, pero se accede a ella y se modifica a través de la función de miembro de la clase secundaria display() y modify() respectivamente.
+
+Encapsulación
+Encapsular códigos y datos en una sola unidad se denomina encapsulación. Podemos lograrlo usando los modificadores de acceso. Por ejemplo, podemos crear una clase completamente encapsulada haciendo que todos sus miembros sean privados.
+
 
