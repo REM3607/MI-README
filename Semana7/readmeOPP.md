@@ -197,139 +197,12 @@ Nota
 
  - “this” es una variable de referencia que hace referencia al objeto actual.
 
+# 7. Instance (Instancia)
 
+La instancia de TypeScript es uno de los operadores, y se usa para determinar el constructor específico, y creará el objeto de las clases. Llamará a los métodos con la ayuda de una instancia como esa si usamos una interfaz que se puede implementar y extender a través de las clases.
 
+# 8. Interface  (Interfaz)
 
-7. Instance
-8. Interface
-9. Access Modifiers
-10. Constructors
-
-
-
-
-Clase
-Objeto
-Herencia
-Polimorfismo
-Abstracción
-Encapsulación
-Aquí aprenderemos cada uno de estos conceptos uno por uno.
-
-Clases y Objetos
-Consideremos una analogía de Juan que deseaba construir una casa. John primero se acercó a una arquitectura y la arquitectura le dio a John un plano de la casa antes de comenzar la construcción o la ocurrencia de la casa.
-
-
-Aquí podemos relacionar el plano con una clase y después de la construcción, la casa será el objeto.
-
-Observe que el plano no tiene ningún espacio en la superficie de la tierra, mientras que la casa tendrá algo de espacio en la superficie de la tierra. De manera similar, las clases no consumen espacio en la memoria, pero los objetos consumen algo de espacio en la memoria.
-
-Tomemos un ejemplo usando mecanografiado:
-
-
-En el ejemplo anterior, hemos definido una clase llamada Empleado que tiene dos miembros, uno es "nombre" de tipo cadena y otro es "edad" de tipo número. En la línea número 10 hemos instanciado un objeto llamado emp de tipo Empleado. Dado que emp es el objeto de tipo Empleado, debe tener la propiedad de nombre y edad. En las líneas 11 y 12 estamos accediendo a esas propiedades usando el operador punto (.).
-
-Nota-
-
-Constructor es un tipo especial de método que inicializa el objeto. En el ejemplo anterior en la línea número 10, los dos argumentos a saber. “John” y 24 se pasan al constructor de la clase Empleado.
-“Esto” es una variable de referencia que hace referencia al objeto actual.
-Herencia
-No es eficiente escribir bloques de códigos una y otra vez. A los desarrolladores les encanta la reutilización del código. La herencia proporciona reutilización de código a los desarrolladores. Es el mecanismo a través del cual una clase hereda o adquiere propiedades de otra clase.
-
-La clase de la que se heredan las propiedades se denomina clase base/superior/padre y la clase que adquiere la propiedad se denomina clase derivada/secundaria/sub.
-
-Tomemos un ejemplo de una organización que tiene gerentes y gerentes de área. Manager es la clase base con cuatro propiedades a saber. 'nombre', 'apellido', 'salario' y 'correo electrónico'. AreaManager también tendrá estas cuatro propiedades junto con una nueva propiedad llamada 'área'.
-
-Está claro que si hacemos un conjunto de las propiedades de cada clase, AreaManager será un superconjunto de Manager. En otras palabras, las propiedades del administrador se pueden heredar al AreaManager.
-
-
-Entonces, para reutilizar los códigos/propiedades de Manager, podemos heredarlos dentro de AreaManager y se puede hacer usando la palabra clave extends.
-
-nota: ' super ' es una palabra clave utilizada para llamar al constructor principal y su valor.
-
-
-producción:
-
-
-Tipos de herencia
-herencia única
-Herencia multinivel
-Herencia múltiple
-herencia jerárquica
-herencia híbrida
-Herencia Única
-Cuando una sola clase hereda otra sola clase. El ejemplo anterior es una herencia única.
-
-Herencia multinivel
-
-Cuando hay una sola cadena de herencia, se denomina herencia multinivel. En el ejemplo anterior, si una nueva clase AreaSupervisor extiende la clase AreaManager, será un ejemplo de herencia multinivel.
-
-Herencia múltiple
-
-Cuando una subclase hereda de más de una clase base. Typescript no admite la herencia múltiple.
-
-Herencia jerárquica
-
-Cuando se heredan más de una subclase de una sola clase base.
-
-herencia híbrida
-
-La combinación de más de un tipo de herencia se denomina herencia híbrida. Para reducir la complejidad, el mecanografiado no admite la herencia híbrida.
-
-Polimorfismo
-Poly significa muchos y el significado de morph es forma, por lo que el polimorfismo básicamente ejecuta una función de muchas maneras. El polimorfismo es otra forma después de la herencia para lograr la reutilización del código.
-
-El polimorfismo se puede lograr mediante:
-
-Sobrecarga de métodos
-Anulación de métodos
-Sobrecarga de métodos
-En TypeScript podemos tener múltiples funciones con el mismo nombre usando diferentes tipos de parámetros y tipos de devolución. A diferencia de java, en mecanografiado el número de parámetros debe ser el mismo. Entendamos esto con dos ejemplos:
-
-
-producción:
-
-
-Aquí, Example es una clase que contiene el método add. En la línea 7 estamos tratando de sobrecargar la función agregar cambiando el tipo de parámetro y el tipo de retorno a número. Dado que podemos proporcionar un parámetro de tipo cadena, así como un número, en la definición de la función proporcionamos el tipo de parámetro y el tipo de retorno como cualquiera. En la salida la función add está sobrecargada y nos devuelve dos salidas diferentes.
-
-Ahora intentemos proporcionar un número diferente de parámetros:
-
-
-producción:
-
-
-Por lo tanto, no está permitido en mecanografiado.
-
-Anulación de métodos
-Para implementar la anulación de métodos, debemos usar la herencia y en la clase secundaria proporcionamos diferentes definiciones de funciones que se han declarado previamente en la clase base. Tomemos un ejemplo:
-
-
-Producción:
-
-
-En el ejemplo anterior, la subclase Macbook y la subclase DellLaptop amplían la clase base Laptop. La computadora portátil tiene un método getOS(). Estamos anulando este método en ambas subclases simplemente definiéndolo de forma única en cada momento.
-
-Aquí vemos claramente el polimorfismo donde el método getOS() se llama tres veces pero cada vez con una salida diferente.
-
-Abstracción
-La abstracción es simplemente ocultar detalles internos y mostrar funcionalidades. Nos permite centrarnos en lo que hace un objeto en lugar de cómo lo hace.
-
-La abstracción se puede lograr de dos maneras:
-
-Usando clase abstracta
-Usando la interfaz
-Clase abstracta
-Definimos una clase abstracta en mecanografiado usando una palabra clave abstracta antes de la palabra clave de clase.
-No se puede crear una instancia de una clase abstracta. Pero otras clases pueden derivarse de él.
-La clase que extiende una clase abstracta debe definir todos los métodos o propiedades abstractas.
-La clase que extiende la clase abstracta debe llamar a super en el constructor.
-Tomemos un ejemplo:
-
-
-Producción:
-
-
-Interfaz
 Es una sintaxis para una clase.
 Contiene sólo la declaración de métodos y propiedades. Las clases que implementan una interfaz deben implementar todos sus miembros y métodos.
 No se puede instanciar.
@@ -338,57 +211,71 @@ Las interfaces se pueden heredar de otras interfaces utilizando la palabra clave
 Las clases usan la palabra clave implements para implementar una interfaz.
 Tomemos un ejemplo:
 
+```JavaScript
+interface IUser{
+  name: string;
+  email: string;
+}
 
-En el ejemplo anterior, la interfaz IEmployee amplía la interfaz IUser y muestra que las interfaces se pueden heredar de otras interfaces. De nuevo, la clase Employee implementa la interfaz IEmployee.
+interface IEmployee extends IUser{
+  employeeId: number;
+}
 
-Ahora veamos cómo la interfaz nos ayuda a verificar el tipo.
+class Employee implements IEmployee{
+  name: string;
+  email: string;
+  employeeId: number;
+  constructor(name: string, email: string, employeeId: number){
+    this.name= name;
+    this.email= email;
+    this.employeeId= employeeId;
+  }
+}
+
+```
 
 
-Producción:
-
-
-Del ejemplo anterior, está claro que cuando una clase implementa una interfaz, debe implementar todas sus variables y métodos miembro y, por lo tanto, se verifica el tipo.
-
-Modificadores de acceso
+# 9. Access Modifiers (Modificadores de acceso)
 Para comprender la encapsulación, primero debemos comprender los modificadores de acceso. Hay tres tipos de modificadores de acceso en mecanografiado:
 
-Público
-Privado
-Protegido
-Público
+Public
+Private
+Protected
+
+Public (Público)
+
 De forma predeterminada, todos los miembros de una clase son públicos en mecanografiado, lo que significa que podemos acceder a ellos y modificarlos fuera de la clase. Tomemos un ejemplo:
 
+![1_82gKfZ4L1VDEj9U4iXtzYA](https://user-images.githubusercontent.com/108378310/189503447-b65a3ed4-2720-421a-b32a-4552f5c8ad06.png)
 
-Producción:
+Output
 
+![1_GgZv-jeFcGLIVoemlt_BFA](https://user-images.githubusercontent.com/108378310/189503468-5813d497-1fef-4b23-b3aa-8d7047b70c68.png)
 
-Privado
+Private (Privado)
 Los miembros privados pueden acceder o modificar dentro de la clase, pero no fuera de la clase. Tomemos un ejemplo:
 
+![1_EnaOEB2ZZ_h1U93U-rB6hQ](https://user-images.githubusercontent.com/108378310/189503504-6fca9650-d6cc-4329-b933-2dd6f33b8400.png)
 
-Producción:
-
+Output
+![1_pm5nmIr4Ow76lFqpBDP9fw](https://user-images.githubusercontent.com/108378310/189503506-fbcd22c0-7085-42cd-8163-788df0bc36a1.png)
 
 Aquí la edad es un miembro privado al que se accede mediante el método de visualización que se encuentra dentro de la clase Empleado.
 
 Ahora veamos otro escenario:
 
+![1_36FXJ38e4CuFKaQC-AebJg](https://user-images.githubusercontent.com/108378310/189503528-0c0d156a-3183-4e65-a333-f4ef03a80524.png)
 
-Producción:
+Output
 
+![1_EjkPMLr-yQpfT-UyPyfgEg](https://user-images.githubusercontent.com/108378310/189503601-5a7b115b-ff71-48df-b64b-1427db34dd2c.png)
 
 Aquí estamos tratando de acceder a la edad fuera de la clase que no está permitida.
 
-Protegido
-Se puede acceder a los miembros protegidos o modificarlos dentro de la clase, así como dentro de sus clases secundarias. Por ejemplo:
 
+## 10. Constructors (Constructor)
 
-Producción:
+Un constructor es una función especial de la clase que se encarga de inicializar las variables de la clase. TypeScript define un constructor usando la palabra clave constructor. Un constructor es una función y, por lo tanto, se puede parametrizar. La palabra clave this se refiere a la instancia actual de la clase.
 
-
-Aquí la edad está protegida, pero se accede a ella y se modifica a través de la función de miembro de la clase secundaria display() y modify() respectivamente.
-
-Encapsulación
-Encapsular códigos y datos en una sola unidad se denomina encapsulación. Podemos lograrlo usando los modificadores de acceso. Por ejemplo, podemos crear una clase completamente encapsulada haciendo que todos sus miembros sean privados.
 
 
