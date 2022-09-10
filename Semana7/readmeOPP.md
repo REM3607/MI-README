@@ -16,7 +16,7 @@ La codificación con objetos y clases facilita la vida de un desarrollador. La p
 
 # Glosario
 
-1. Abstraction
+## 1. Abstraction
 La abstracción es simplemente ocultar detalles internos y mostrar funcionalidades. Nos permite centrarnos en lo que hace un objeto en lugar de cómo lo hace.
 
 La abstracción se puede lograr de dos maneras:
@@ -164,15 +164,55 @@ console.log(object.add("Hello ","John"));
 console.log(object.add(1,1));
 ```
 
+## 4. Encapsulation (Encapsulación)
+Encapsular códigos y datos en una sola unidad se denomina encapsulación. Podemos lograrlo usando los modificadores de acceso. Por ejemplo, podemos crear una clase completamente encapsulada haciendo que todos sus miembros sean privados.
 
 
-6. 5. Encapsulation
-7. Class
-8. Object
-9. Instance
-10. Interface
-11. Access Modifiers
-12. Constructors
+5. Class and 6. Object
+Clases y Objetos
+Consideremos una analogía de Juan que deseaba construir una casa. John primero se acercó a una arquitectura y la arquitectura le dio a John un plano de la casa antes de comenzar la construcción o la ocurrencia de la casa.
+
+![1_cRVD88ogFfm05tBgrb0nxg](https://user-images.githubusercontent.com/108378310/189501557-4eb01b3b-3745-4bb0-ae78-226df74f9717.gif)
+
+Aquí podemos relacionar el plano con una clase y después de la construcción, la casa será el objeto.
+
+Observe que el plano no tiene ningún espacio en la superficie de la tierra, mientras que la casa tendrá algo de espacio en la superficie de la tierra. De manera similar, las clases no consumen espacio en la memoria, pero los objetos consumen algo de espacio en la memoria.
+
+Tomemos un ejemplo usandotypescript:
+
+```JavaScript
+class Employee{
+  name: string;
+  age: number;
+  constructor(n: string, a: number){
+    this.name= n;
+    this.age=a;
+  }
+}
+
+let emp = new Employee("John", 24); // object emp instanciated of type Employee and hence consumed some space in the memory
+console.log(emp.name); // accessed the property 'name' of the object emp of type Employee
+console.log(emp.age);
+
+//output:
+//John
+//24
+```
+En el ejemplo anterior, hemos definido una clase llamada Empleado que tiene dos miembros, uno es "nombre" de tipo cadena y otro es "edad" de tipo número. En la línea número 10 hemos instanciado un objeto llamado emp de tipo Empleado. Dado que emp es el objeto de tipo Empleado, debe tener la propiedad de nombre y edad. En las líneas 11 y 12 estamos accediendo a esas propiedades usando el operador punto (.).
+
+Nota
+ - Constructor es un tipo especial de método que inicializa el objeto. En el ejemplo anterior en la línea número 10, los dos argumentos a saber. “John” y 24 se pasan al constructor de la clase Empleado.
+
+ - “this” es una variable de referencia que hace referencia al objeto actual.
+
+
+
+
+7. Instance
+8. Interface
+9. Access Modifiers
+10. Constructors
+
 
 
 
