@@ -142,9 +142,13 @@ const album = new Album("Rocks");
 const track = new Track("Combination", 264, album);
 
 track.play();
+```
 
-Derecho de herencia
+
+## Derecho de herencia
 ¿Supongamos que ahora nuestro software de streaming de audio necesita añadir soporte para podcasts que tienen episodios, cómo vamos a hacer esto? Simplemente podemos a ñadir una clase de podcast y un atributo de tipo a la clase de pista:
+
+```JavaScript
 export class Podcast {}
 
 export class Track {
