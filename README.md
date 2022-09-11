@@ -262,9 +262,7 @@ Concept of instance
 1. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
 2. [Glosario - OOP](Semana7/readmeOOP.md) exercise
 3. [Guia - OOP](Semana7/ejemploguia.md) exercise
-
-
- -    [ Ejercicio #3(Your Order, Please)](Semana3/ejercicio3.md )
+ 
 ## Week challenges (Tuesday) 💻
 
 1. [Input/Output](./exercises/e00/desc) playground, using `Typescript`
@@ -275,7 +273,7 @@ Concept of instance
 
 ## Week challenges (Wednesday) 💻
 
-1. [Build Tower](./exercises/e04/desc) exercise, using `Typescript`
+1. [Build Tower](Semana7/buildtoer.md) exercise, using `Typescript`
 2. [Meeting](./exercises/e05/desc) exercise, using `Typescript`
 
 ## Week challenges (Thursday) 💻
