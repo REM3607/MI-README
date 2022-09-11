@@ -279,7 +279,7 @@ Concept of instance
 ## Week challenges (Thursday) 💻
 
 1. [Interfaces](https://docs.microsoft.com/en-us/learn/modules/typescript-implement-interfaces/) guided exercise, using `Typescript`
-2. Guia Scrum [**Guia Scrum**](scrum.md)
+2. [**Guia Scrum**](Semana7/Scrum.md)
 
 ## Extra (It is not mandatory for the Readme) ⭐
 1. [Menu](./exercises/e02/desc) exercise, using `Typescript`
