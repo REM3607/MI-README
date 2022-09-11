@@ -319,7 +319,7 @@ Concept of instance
 ## Week challenges (Wednesday) 💻
 
 1. [Make the Deadfish Swim](./exercises/e01/desc) exercise, using `Typescript`
-2. [Duplicate Encoder](./exercises/e03/desc) exercise, using `Typescript`
+2. [Duplicate Encoder](Semana8/Duplicate.md) exercise, using `Typescript`
 3. [Find The Odd Int](./exercises/e04/desc) exercise, using `Typescript`
 4. [Which Are In?](./exercises/e05/desc) exercise, using `Typescript`
 
