@@ -260,7 +260,7 @@ Concept of instance
 
 
 2. Watch [Object Oriented Programming - The Four Pillars of OOP](https://www.youtube.com/watch?v=1ONhXmQuWP8)
-3. [Readme - OOP](Semana7/redmeOOP.md) exercise
+3. [Readme - OOP](Semana7/readmeOOP.md) exercise
 
  -    [ Ejercicio #3(Your Order, Please)](Semana3/ejercicio3.md )
 ## Week challenges (Tuesday) 💻
