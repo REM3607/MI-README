@@ -5,6 +5,7 @@ Build a pyramid-shaped tower given a positive integer number of floors. A tower 
 ## For example, a tower with 3 floors looks like this:
 
 [
+  
   "  *  ",
   
   " *** ", 
@@ -16,6 +17,7 @@ Build a pyramid-shaped tower given a positive integer number of floors. A tower 
 ## And a tower with 6 floors looks like this:
 
 [
+  
   "     *     ", 
   
   "    ***    ", 
