@@ -274,7 +274,7 @@ Concept of instance
 ## Week challenges (Wednesday) 💻
 
 1. [Build Tower](Semana7/buildtower.md) exercise, using `Typescript`
-2. [Meeting](Semana7/meeting) exercise, using `Typescript`
+2. [Meeting](Semana7/meeting.md) exercise, using `Typescript`
 
 ## Week challenges (Thursday) 💻
 
