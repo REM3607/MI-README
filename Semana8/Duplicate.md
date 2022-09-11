@@ -5,8 +5,11 @@ The goal of this exercise is to convert a string to a new string where each char
 
 ## Examples
 "din"      =>  "((("
+
 "recede"   =>  "()()()"
+
 "Success"  =>  ")())())"
+
 "(( @"     =>  "))((" 
 
 ## Notes
