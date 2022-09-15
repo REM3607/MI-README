@@ -321,12 +321,12 @@ Concept of instance
 1. [Make the Deadfish Swim](Semana8/Deadfish.md) exercise, using `Typescript`
 2. [Duplicate Encoder](Semana8/Duplicate.md) exercise, using `Typescript`
 3. [Find The Odd Int](Semana8/Find.md) exercise, using `Typescript`
-4. [Which Are In?](./exercises/e05/desc) exercise, using `Typescript`
+4. [Which Are In?](Semana8/Which.md) exercise, using `Typescript`
 
 ## Week challenges (Thursday) 💻
 
 1. [Define generics in TypeScript](https://docs.microsoft.com/en-us/learn/modules/typescript-generics/) guided exercise, using `Typescript`
-2. [Generics](./exercises/e00/desc) exercise, using `Typescript`
+2. [Generics](Semana8/Generics.md) exercise, using `Typescript`
 3. ✨ 5th Core Challenge, update your resume [here](https://corecode.notion.site/CV-or-Resume-Boost-9092fff9f9cf4944a7c1717b11b09223)
 
 ## Week links 🔗
