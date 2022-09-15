@@ -320,7 +320,7 @@ Concept of instance
 
 1. [Make the Deadfish Swim](Semana8/Deadfish.md) exercise, using `Typescript`
 2. [Duplicate Encoder](Semana8/Duplicate.md) exercise, using `Typescript`
-3. [Find The Odd Int](./exercises/e04/desc) exercise, using `Typescript`
+3. [Find The Odd Int](Semana8/Find.md) exercise, using `Typescript`
 4. [Which Are In?](./exercises/e05/desc) exercise, using `Typescript`
 
 ## Week challenges (Thursday) 💻
